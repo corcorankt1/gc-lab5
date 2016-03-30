@@ -25,4 +25,4 @@ items.forEach(function(element){
 	total += element.price;
 });
 
-console.log("The total of the items comes to " + total);
+console.log("Total: " + total);
