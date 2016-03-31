@@ -21,8 +21,8 @@ var total = 0;
 
 
 items.forEach(function(element){
-	console.log(element.name, element.price);
+	console.log(element.name + " $"  + element.price.toFixed(2));
 	total += element.price;
 });
 
-console.log("Total: " + total);
+console.log("Total: $" + total.toFixed(2));
